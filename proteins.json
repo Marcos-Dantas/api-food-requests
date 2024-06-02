@@ -1,0 +1,27 @@
+[
+    {
+      "id": "1",
+      "imageInactive": "https://img.icons8.com/?size=100&id=og9ZLcKQWVsD&format=png&color=000000",
+      "imageActive": "https://img.icons8.com/?size=100&id=5INcNoMBcs01&format=png&color=000000",
+      "name": "Tofu",
+      "description": "Crispy tofu served with a soy dipping sauce.",
+      "price": 8
+    },
+    {
+      "id": "2",
+      "imageInactive": "https://img.icons8.com/?size=100&id=wnC4kUrZzD1q&format=png&color=000000",
+      "imageActive": "https://img.icons8.com/?size=100&id=50549&format=png&color=000000",
+      "name": "Shrimp",
+      "description": "Garlic butter shrimp with a side of cocktail sauce.",
+      "price": 13
+    },
+    {
+      "id": "3",
+      "imageInactive": "https://img.icons8.com/?size=100&id=7627&format=png&color=000000",
+      "imageActive": "https://img.icons8.com/?size=100&id=51277&format=png&color=000000",
+      "name": "Lamb Chops",
+      "description": "Succulent lamb chops seasoned with rosemary and thyme.",
+      "price": 18
+    }
+  ]
+  

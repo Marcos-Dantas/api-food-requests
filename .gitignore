@@ -1,0 +1,21 @@
+# Arquivos de bytecode do Python
+__pycache__/
+*.pyc
+
+# Ambientes virtuais
+venv/
+env/
+*.env
+
+# Logs e arquivos de cache
+*.log
+logs/
+
+# Arquivos de configuração
+*.cfg
+*.ini
+
+# Dependências e arquivos gerados
+*.egg-info/
+dist/
+build/
