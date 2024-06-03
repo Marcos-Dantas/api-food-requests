@@ -53,8 +53,9 @@ def list_proteins(key: bool = Depends(check_api_key)):
     
     return proteins_data
 
-@router.post("/orders")
+@router.post("/order")
 async def orders(request: Request, key: bool = Depends(check_api_key)):
+    print('entrou aqui')
     try:
         request = await request.json()
     except Exception:

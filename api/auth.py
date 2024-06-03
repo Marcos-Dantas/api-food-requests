@@ -9,6 +9,8 @@ api_key_header = APIKeyHeader(name="X-API-Key")
 
 def check_api_key(api_key_header: str = Security(api_key_header)):
     api_key = os.getenv("API_KEY")
+    print(api_key,"sssss")
+    print(api_key_header,"wwww")
 
     if api_key_header == api_key:
         return api_key_header
