@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Depends
-from api.auth import check_api_key
+from auth import check_api_key
 import json
 from fastapi import Request
 from fastapi import HTTPException, status

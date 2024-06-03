@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Depends
-from api.routers import secure
-from api.auth import check_api_key
+from routers import secure
+from auth import check_api_key
 from fastapi.responses import JSONResponse
 from fastapi import Request
 from fastapi import HTTPException
